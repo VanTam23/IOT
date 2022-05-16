@@ -1,6 +1,6 @@
 import httplib2
 import mimetypes
-from urllib.parse import urlparse
+from urlparse import urlparse
 import uuid
 
 def post_multipart(url, fields, files):
